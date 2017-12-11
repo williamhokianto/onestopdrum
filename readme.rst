@@ -33,4 +33,4 @@ Installation
 Place in htdocs directory.
 
 Address : localhost/onestopdrum.
-Admin Address : localhost/onestopdrum/dvilsf (username : admin, Password : password).
+Admin Address : localhost/onestopdrum/dvilsf. (username : admin, Password : password)

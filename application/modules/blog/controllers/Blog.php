@@ -292,7 +292,7 @@ function fetch_data_from_post()
 {
     $data['page_title'] = $this->input->post('page_title', TRUE);
     $data['page_keywords'] = $this->input->post('page_keywords', TRUE);
-    $data['page_description'] = $this->input->post('page_description', TRUE);
+    $data['page_description'] = $this->input->post('page_description', FALSE);
     $data['page_content'] = $this->input->post('page_content', TRUE);
     $data['date_published'] = $this->input->post('date_published', TRUE);
     $data['author'] = $this->input->post('author', TRUE);

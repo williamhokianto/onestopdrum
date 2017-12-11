@@ -482,7 +482,7 @@ function fetch_data_from_post()
     $data['item_title'] = $this->input->post('item_title', TRUE);
     $data['item_price'] = $this->input->post('item_price', TRUE);
     $data['was_price'] = $this->input->post('was_price', TRUE);
-    $data['item_description'] = $this->input->post('item_description', TRUE);
+    $data['item_description'] = $this->input->post('item_description', FALSE);
     $data['status'] = $this->input->post('status', TRUE);
     return $data;
 }

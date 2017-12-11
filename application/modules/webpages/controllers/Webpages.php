@@ -129,7 +129,7 @@ function fetch_data_from_post()
 {
     $data['page_title'] = $this->input->post('page_title', TRUE);
     $data['page_keywords'] = $this->input->post('page_keywords', TRUE);
-    $data['page_description'] = $this->input->post('page_description', TRUE);
+    $data['page_description'] = $this->input->post('page_description', FALSE);
     $data['page_content'] = $this->input->post('page_content', FALSE);
     return $data;
 }
