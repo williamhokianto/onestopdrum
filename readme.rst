@@ -14,7 +14,7 @@ v1.0
 Changelog and New Features
 **************************
 
-1.0 - First Commit
+1.0 - First Release
 
 *******************
 Server Requirements
