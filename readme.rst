@@ -30,5 +30,7 @@ issues, as well as missing features.
 Installation
 ************
 
-Place in htdocs directory
-Address : localhost/onestopdrum
+Place in htdocs directory.
+
+Address : localhost/onestopdrum.
+Admin Address : localhost/onestopdrum/dvilsf (username : admin, Password : password).

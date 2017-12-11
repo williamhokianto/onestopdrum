@@ -35,7 +35,7 @@
         	}
 
         ?>
-          <div class="item<?= $additional_css ?>"> <!-- Lanjut ke video 117 , damn sliders it's like need 400 years to make it (-,-) -->
+          <div class="item<?= $additional_css ?>">
           	<?php
           	if ($target_url!='') { ?>
           		<a href="<?= $target_url ?>">

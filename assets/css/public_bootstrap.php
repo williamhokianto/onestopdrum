@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"<?php
-if (isset($use_angularjs)) { //lanjut ke video 123
+if (isset($use_angularjs)) {
   echo 'ng-app="myApp"';
 }
 ?>

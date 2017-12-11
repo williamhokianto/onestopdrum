@@ -76,7 +76,7 @@ function deleteconf($update_id)
     $data['flash'] = $this->session->flashdata('item');
     $data['view_file'] = "deleteconf";
     $this->load->module('templates');
-    $this->templates->admin($data);        // lanjut ke video 114
+    $this->templates->admin($data);
 }
 
 function _draw_blocks()

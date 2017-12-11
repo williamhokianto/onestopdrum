@@ -91,7 +91,7 @@ function _get_items_segments()
 
 function _get_page_not_found_msg()
 {
-    $msg = "<h1>It's a webpage Jim but not as we know it!</h1>";
+    $msg = "<h1>Ooopss.. it looks like the page is not found</h1>";
     $msg.= "<p>Please check your vibe and try again.</p>";
     return $msg;
 }

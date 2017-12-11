@@ -31,7 +31,7 @@ function _get_status_title($update_id)
 function _draw_left_nav_links()
 {
     $data['query_lnl'] = $this->get('status_title');
-    $this->load->view('left_nav_links', $data); //lanjut ke video 102
+    $this->load->view('left_nav_links', $data);
 }
 
 function _make_sure_delete_allowed($update_id)

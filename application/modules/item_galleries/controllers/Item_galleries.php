@@ -11,7 +11,7 @@ function _get_parent_title($parent_id)
     $parent_module_name = 'store_items';
     $this->load->module($parent_module_name);
     $parent_title = $this->$parent_module_name->_get_title($parent_id);
-    return $parent_title; // lanjut ke video 118
+    return $parent_title;
 }
 
 function _get_entity_name($type)

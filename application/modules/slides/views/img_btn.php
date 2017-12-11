@@ -14,7 +14,7 @@
           <a href="<?= base_url() ?>slides/upload_image/<?= $update_id ?>"><button type="button" class="btn btn-primary">Upload Image</button></a>
           	<?php 
           	} else {
-          		echo "<img src='".$pic_path."'>"; //lanjut ke video 116
+          		echo "<img src='".$pic_path."'>";
           	}
           	?>
           <a href="<?= base_url() ?>slides/deleteconf/<?= $update_id ?>"><button type="button" class="btn btn-danger"<?= $btn_style ?>>Delete Slide</button></a>

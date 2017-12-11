@@ -14,7 +14,7 @@
           <a href="<?= base_url() ?>item_galleries/upload_image/<?= $update_id ?>"><button type="button" class="btn btn-primary">Upload Image</button></a>
           	<?php 
           	} else {
-          		echo "<img src='".$pic_path."'>"; //lanjut ke video 116
+          		echo "<img src='".$pic_path."'>";
           	}
           	?>
           <a href="<?= base_url() ?>item_galleries/deleteconf/<?= $update_id ?>"><button type="button" class="btn btn-danger"<?= $btn_style ?>>Delete</button></a>

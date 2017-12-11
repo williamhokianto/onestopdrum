@@ -31,7 +31,7 @@ function browse()
     //fetch the orders for this page
     $use_limit = TRUE;
     $mysql_query = $this->_generate_mysql_query($use_limit, $shopper_id);
-    $data['query'] = $this->store_orders->_custom_query($mysql_query); // lanjut video 103
+    $data['query'] = $this->store_orders->_custom_query($mysql_query);
     $data['num_rows'] = $data['query']->num_rows();
 
     //generate the pagination

@@ -28,7 +28,7 @@ function _send_auto_notify($update_id)
 
     //send the message
     $data['subject'] = 'Order Status Update';
-    $data['message'] = $msg; // lanjut ke video 106
+    $data['message'] = $msg;
     $data['sent_to'] = $shopper_id;
     $data['date_created'] = time();
     $data['sent_by'] = 0; //admin
@@ -158,7 +158,7 @@ function browse()
     //fetch the orders for this page
     $use_limit = TRUE;
     $mysql_query = $this->_generate_mysql_query($use_limit);
-    $data['query'] = $this->_custom_query($mysql_query); // lanjut video 103
+    $data['query'] = $this->_custom_query($mysql_query);
     $data['num_rows'] = $data['query']->num_rows();
 
     //generate the pagination
