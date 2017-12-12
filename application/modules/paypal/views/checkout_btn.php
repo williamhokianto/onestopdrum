@@ -19,17 +19,20 @@ foreach($query->result() as $row) {
 
     echo form_hidden('item_name_'.$count, $item_title);
     echo form_hidden('amount_'.$count, $price);
-    echo form_hidden('item_qty_'.$count, $item_qty);
-
+    echo form_hidden('quantity_'.$count, $item_qty);
+    
     if ($item_colour!='') {
         echo form_hidden('on0_'.$count, 'Colour');
         echo form_hidden('os0_'.$count, $item_colour);
+        echo "<br>";
     }
 
     if ($item_size!='') {
         echo form_hidden('on1_'.$count, 'Size');
         echo form_hidden('os1_'.$count, $item_size);
+        echo "<br>";
     }
+
 }
 
 echo form_hidden('shipping_'.$count, $shipping);
